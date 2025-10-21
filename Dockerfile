@@ -1,4 +1,4 @@
-FROM git:1:2.20.1-2+deb10u9
+FROM node:18.20.8-bookworm-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
