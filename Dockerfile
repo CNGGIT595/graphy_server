@@ -1,4 +1,4 @@
-FROM node:18.20.8-bookworm-slim
+FROM libgnutls30:3.7.9-2+deb12u5
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
